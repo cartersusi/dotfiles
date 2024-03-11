@@ -20,6 +20,9 @@ os_check() {
 
 finisher() {
     mkdir $HOME/Clones
+
+    curl -fsSL https://bun.sh/install | bash
+    
     firefox
 }
 

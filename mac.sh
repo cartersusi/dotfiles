@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# 3AM - bat 85%
-
 CUR_DIR=$(pwd)
 pkgs=(  "git"
         "neovim"
@@ -17,7 +15,6 @@ pkgs=(  "git"
 
 deps() {
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    curl -fsSL https://bun.sh/install | bash
 }
 
 brews() {

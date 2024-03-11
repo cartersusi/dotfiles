@@ -1,0 +1,34 @@
+{
+    "rules": [
+        {
+            "pattern": {
+                "feature": "true",
+                "matches": ""
+            },
+            "profile": "profile_6b8b4567"
+        }
+    ],
+    "profiles": [
+        {
+            "name": "profile_6b8b4567",
+            "settings": [
+                {
+                    "key": "GLThreadedOptimizations",
+                    "value": true
+                },
+                {
+                    "key": "GLSharpenEnable",
+                    "value": true
+                },
+                {
+                    "key": "GLSharpenValue",
+                    "value": 50
+                },
+                {
+                    "key": "GLSharpenIgnoreFilmGrain",
+                    "value": 17
+                }
+            ]
+        }
+    ]
+}
