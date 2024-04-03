@@ -2,7 +2,7 @@
 
 CUR_DIR=$(pwd)
 
-pacman_pkgs="firefox gimp inkscape gnome-calculator discord docker neovim nodejs npm obs-studio btop go rustup nvidia-dkms opencl-nvidia nvidia-utils nvidia-settings unzip fish"
+pacman_pkgs="firefox gimp inkscape gnome-calculator discord docker neovim nodejs npm obs-studio btop go rustup nvidia-dkms opencl-nvidia nvidia-utils nvidia-settings unzip fish dosfstools"
 
 AUR_pkgs=(
     "gwe"
