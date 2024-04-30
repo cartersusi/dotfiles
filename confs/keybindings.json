@@ -26,5 +26,14 @@
     {
         "key": "ctrl+shift+l",
         "command": "workbench.action.openView"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.files.action.collapseExplorerFolders"
     }
 ]
