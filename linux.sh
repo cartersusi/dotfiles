@@ -2,7 +2,7 @@
 
 CUR_DIR=$(pwd)
 
-pacman_pkgs="firefox gimp inkscape gnome-calculator discord docker neovim nodejs npm obs-studio btop go rustup nvidia-dkms opencl-nvidia nvidia-utils nvidia-settings unzip fish dosfstools gparted"
+pacman_pkgs="firefox gimp inkscape gnome-calculator discord docker neovim nodejs npm obs-studio btop go rustup nvidia-dkms opencl-nvidia nvidia-utils nvidia-settings unzip fish dosfstools gparted bluez bluez-utils fuse"
 
 AUR_pkgs=(
     "gwe"
@@ -46,7 +46,13 @@ cuda() {
     sudo pacman -U cudnn-8.6.0.163-1-x86_64.pkg.tar.zst
 }
 
+bt() {
+    sudo systemctl enable bluetooth.service
+    sudo systemctl start bluetooth.service
+}
+
 start
 de
 install
 cuda
+bt
