@@ -1,0 +1,26 @@
+
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-delete": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-up": "editor::AddSelectionAbove",
+      "ctrl-shift-down": "editor::AddSelectionBelow",
+      "shift-alt-down": ["editor::SelectNext", { "replace_newest": false }],
+      "shift-alt-up": ["editor::SelectPrevious", { "replace_newest": false }]
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-insert": "project_panel::NewFile",
+      "ctrl-m": "project_panel::NewDirectory",
+      "enter": "project_panel::Open"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "telemetry": {
+    "metrics": false
+  },
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Ayu Dark"
+  },
+  "terminal": {
+    "dock": "right"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python": {
+          "pythonPath": "~/venv/bin/python"
+        }
+      }
+    }
+  }
+}

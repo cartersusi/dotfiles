@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Pitch Black",
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.startupEditor": "none",
+    "extensions.ignoreRecommendations": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "explorer.confirmDelete": false,
+    "python.defaultInterpreterPath": "/home/carter/venv",
+    "zig.initialSetupDone": true,
+    "zig.path": "zig",
+    "zig.zls.path": "/home/carter/.config/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls"
+}
