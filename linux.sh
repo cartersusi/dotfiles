@@ -75,4 +75,6 @@ if [ "$1" == "new" ]; then
     cuda_installer
     cp -r $currdir/linux/* $HOME
     dconf load / < $currdir/gnome-settings-backup.ini
+    chmod +x mojoscript.sh
+    ./mojoscript.sh
 fi
