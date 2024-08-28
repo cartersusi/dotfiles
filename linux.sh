@@ -1,7 +1,7 @@
 #! /bin/bash
 
 currdir=$(pwd)
-pacman_pkgs="firefox gimp inkscape gnome-calculator discord docker neovim nodejs npm obs-studio btop go rustup nvidia-dkms opencl-nvidia nvidia-utils nvidia-settings fish dosfstools gparted bluez bluez-utils fuse telegram-desktop imagemagick python-opencv ffmpeg tk steam base-devel ccache cmake git libiconv libtool make ninja pkg-config python rust sed unzip ruby os-prober zig"
+pacman_pkgs="firefox gimp inkscape gnome-calculator discord docker neovim nodejs npm obs-studio btop go rustup nvidia-dkms opencl-nvidia nvidia-utils nvidia-settings fish dosfstools gparted bluez bluez-utils fuse telegram-desktop imagemagick python-opencv ffmpeg tk steam base-devel ccache cmake git libiconv libtool make ninja pkg-config python rust sed unzip ruby os-prober zig github-cli"
 AUR_pkgs="gwe google-chrome visual-studio-code-bin postman python310 lmstudio-appimage"
 
 init_venv() {
