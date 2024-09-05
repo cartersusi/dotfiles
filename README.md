@@ -2,5 +2,5 @@
 
 ## Linux
 * Arch
-* Gnome
+* Gnome | i3
 * X11 Nvidia (Propietary)
