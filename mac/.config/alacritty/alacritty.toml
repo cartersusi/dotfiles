@@ -1,0 +1,63 @@
+
+live_config_reload = true
+
+[cursor]
+blink_interval = 550
+unfocused_hollow = false
+thickness = 0.15
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+decorations = "none"
+dynamic_title = true
+opacity = 1
+dynamic_padding = true
+
+[window.padding]
+x = 15
+y = 15
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[colors.primary]
+background = "#1f2430"
+foreground = "#cbccc6"
+bright_foreground = "#f28779"
+
+# Cursor colors
+[colors.cursor]
+cursor = "#8656e3"
+text = "#0b0b12"
+
+# Normal colors
+[colors.normal]
+black = "#212733" 
+red = "#f08778" 
+green = "#53bf97" 
+yellow = "#fdcc60" 
+blue = "#60b8d6"
+magenta = "#ec7171"
+cyan = "#98e6ca"
+white = "#fafafa"
+
+# Bright colors
+[colors.bright]
+black = "#686868"
+red = "#f58c7d"
+green = "#58c49c"
+yellow = "#ffd165"
+blue = "#65bddb"
+magenta = "#f17676"
+cyan = "#9debcf"
+white = "#ffffff"
+
+[font]
+size = 13
