@@ -1,0 +1,29 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.statusBar.visible": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "editor.accessibilitySupport": "off",
+    "haskell.manageHLS": "GHCup",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmPasteNative": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "zig.zls.enabled": "on"
+}

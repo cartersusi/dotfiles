@@ -1,0 +1,30 @@
+// Place your keybindings in this file to override the defaults
+[
+    {
+        "key": "cmd+insert",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "cmd+m",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-selectAllSearchEditorMatches",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-addCursorsAtSearchResults",
+        "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "workbench.action.openView"
+    }
+]
